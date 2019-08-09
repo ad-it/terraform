@@ -3,7 +3,7 @@ provider "aws" {
 }
 resource aws_instance "my_terraform_Linux" {
   ami           = "ami-0cc293023f983ed53"
-  instance_type = "t2.small"
+  instance_type = "t2.micro"
 
   tags = {
     Name    = "My Terraform Linux Server"
